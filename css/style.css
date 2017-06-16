@@ -1,0 +1,86 @@
+
+body{
+  background-color: #66cdaa;
+  opacity: 0.7;}
+
+h1{
+  font-style: italic;
+  color: white;
+  font-size: 20px;}
+
+#top{
+   color:red;}
+
+   @font-face {
+    font-family: 'MyFont';
+    src: url('css/Artifika-Regular.ttf');}
+
+   header{
+      font-language-override: : 'MyFont';}
+
+  .one{
+    border-style: solid;
+    border-radius: 10px;
+    height: 200px;
+    width: 175px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;}
+
+   .two{
+    -moz-box-shadow: -10px -10px #777777;
+    -webkit-box-shadow: -10px -10px #777777;
+    box-shadow: -10px -10px #777777;
+    height: 200px;
+    width: 175px;
+    }
+
+  .one{
+display: inline-block;
+float:left;
+margin: 20px;
+padding: 0px;
+}
+.two{
+display: inline-block;
+float:left;
+margin: 20px;
+padding: 0px;
+}
+.three{
+display: inline-block;
+float:left;
+margin:20px;
+padding: 0px;
+}
+
+#submit{
+  color: green;
+  background-color: white;
+  font-style: italic;
+  }
+
+  .nav{
+    height: 75px;
+    background:white
+  }
+  .nav{
+    margin: 0;
+    padding:0;
+  }
+  .nav ul li {
+    list-style: none;
+  }
+  .nav ul li a{
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  .nav ul li a:hover{
+    color: white;
+  }
+
+*{font-family: sans-serif;}
